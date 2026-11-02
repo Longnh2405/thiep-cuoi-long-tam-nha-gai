@@ -265,19 +265,19 @@ const albums = [...albumA, ...albumB, ...albumC]; // for preview
 
 const metaData = {
   main: {
-    title: "Thiệp Cưới Hải Long & Minh Tâm | Kính Mời",
+    title: "Thiệp Cưới Minh Tâm & Hải Long | Lễ Vu Quy",
     graphImage: weddingImg("DSC01645.jpg"),
   },
   wish: {
-    title: "Tất cả lời chúc dành cho Hải Long & Minh Tâm",
+    title: "Tất cả lời chúc dành cho Minh Tâm & Hải Long",
     graphImage: weddingImg("DSC01840.jpg"),
   },
   invitation: {
-    title: "Thiệp Cưới Hải Long & Minh Tâm",
+    title: "Thiệp Cưới Minh Tâm & Hải Long",
     graphImage: weddingImg("DSC01445.jpg"),
   },
   album: {
-    title: "Album Cưới Hải Long & Minh Tâm",
+    title: "Album Cưới Minh Tâm & Hải Long",
     graphImage: weddingImg("DSC01671.jpg"),
   },
 };

@@ -9,7 +9,7 @@ import { useInView } from "framer-motion";
 
 const cx = classNames.bind(styles);
 
-function Invitation({ isGai = false }) {
+function Invitation({ isGai = true }) {
   const imgs = invitationSection.imgs || [];
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });

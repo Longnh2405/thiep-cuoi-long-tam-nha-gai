@@ -20,7 +20,7 @@ const isBankValid = (bank) => {
   );
 };
 
-function Gift({ onClose, hasNav = true, isGai = false }) {
+function Gift({ onClose, hasNav = true, isGai = true }) {
   const viewRef = useRef();
   const isInView = useInView(viewRef, { once: true });
   const [isCopied, setIsCopied] = useState(false);

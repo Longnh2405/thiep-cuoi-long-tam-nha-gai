@@ -5,7 +5,7 @@ import Chacracter from "./character";
 
 const cx = classNames.bind(styles);
 
-function Profile({ isGai = false }) {
+function Profile({ isGai = true }) {
   const profiles = isGai
     ? [...profileSection.profiles].reverse()
     : profileSection.profiles;

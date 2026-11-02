@@ -12,7 +12,7 @@ function Footer() {
           href="https://www.facebook.com/profile.php?id=100015195702096"
           target="_blank"
         >
-          Hải Long and Minh Tâm
+          Minh Tâm and Hải Long
         </a>
       </p>
       <p className={cx("text2")}>Thank you for watching . I Hope You Like It</p>

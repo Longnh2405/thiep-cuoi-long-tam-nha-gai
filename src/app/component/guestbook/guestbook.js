@@ -19,7 +19,7 @@ import {
 } from "@/app/configs/ui";
 const cx = classNames.bind(styles);
 
-function GuestBook({ fName, isGai = false }) {
+function GuestBook({ fName, isGai = true }) {
   const ref = useRef();
   const viewRef = useRef();
   const isInView = useInView(ref, { once: true });
