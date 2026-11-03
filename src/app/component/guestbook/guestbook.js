@@ -234,7 +234,7 @@ function GuestBook({ fName, isGai = true }) {
 
       {/* {isOpenGift && (
         <div className={cx("overlay")}> */}
-      <Gift onClose={() => setIsOpenGift(false)} isGai={isGai} />
+      {!isGai && <Gift onClose={() => setIsOpenGift(false)} isGai={isGai} />}
       {/* </div>
       )} */}
     </div>

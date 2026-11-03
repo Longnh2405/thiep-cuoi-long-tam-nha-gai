@@ -58,7 +58,7 @@ function Gift({ onClose, isGai = false }) {
     }
   };
 
-  if (!hasBride && !hasGroom) {
+  if (isGai || (!hasBride && !hasGroom)) {
     return null;
   }
 
